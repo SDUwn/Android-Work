@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的性别" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/radioButton66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="女" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的专业" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您是否单亲家庭" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="是" />
+
+                <RadioButton
+                    android:id="@+id/radioButton68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="否" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您是否独生子女" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="是" />
+
+                <RadioButton
+                    android:id="@+id/radioButton70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="否" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的家乡（生源地）" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="城市" />
+
+                <RadioButton
+                    android:id="@+id/radioButton72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="农村" />
+
+                <RadioButton
+                    android:id="@+id/radioButton73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="城镇" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的入学动机（目的）【多选】" />
+
+            <CheckBox
+                android:id="@+id/checkBox46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="为了振兴中华" />
+
+            <CheckBox
+                android:id="@+id/checkBox47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="为了社会发展，人类进步" />
+
+            <CheckBox
+                android:id="@+id/checkBox48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="想做学问" />
+
+            <CheckBox
+                android:id="@+id/checkBox49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="想掌握专门知识和技能" />
+
+            <CheckBox
+                android:id="@+id/checkBox50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="想提高自己的教养水平" />
+
+            <CheckBox
+                android:id="@+id/checkBox51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="为出国打基础" />
+
+            <CheckBox
+                android:id="@+id/checkBox52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="为了今后就职方便" />
+
+            <CheckBox
+                android:id="@+id/checkBox53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="由于父母老师的规劝" />
+
+            <CheckBox
+                android:id="@+id/checkBox54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="想过几年自由的日子" />
+
+            <CheckBox
+                android:id="@+id/checkBox55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="想参加丰富多彩的社团活动" />
+
+            <CheckBox
+                android:id="@+id/checkBox56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="对结婚有利" />
+
+            <CheckBox
+                android:id="@+id/checkBox57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="其他" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您的录取专业和自己的愿望是否符合（符合程度）*" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="非常符合" />
+
+                <RadioButton
+                    android:id="@+id/radioButton75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="比较符合" />
+
+                <RadioButton
+                    android:id="@+id/radioButton76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="无所谓" />
+
+                <RadioButton
+                    android:id="@+id/radioButton77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="不太符合" />
+
+                <RadioButton
+                    android:id="@+id/radioButton78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="很不符合" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="辛苦了，点击进入下一环节！" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="entertest"
+                app:srcCompat="@android:drawable/star_big_on" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
