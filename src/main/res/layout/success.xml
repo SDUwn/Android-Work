@@ -4,25 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/shudong"
     android:orientation="vertical">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="423dp"
+        android:text="欢迎来到两心知！我们的问题和测评是专业准确的，为了使您有一个良好的体验，请您如实填写问卷。"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="match_parent"
-            android:layout_height="783dp"
-            android:onClick="funcA"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
-            android:text="点击图片进入测试" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:onClick="funcA"
+        android:text="start！" />
 </LinearLayout>

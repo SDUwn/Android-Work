@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/aa"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,17 +17,11 @@
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
         android:layout_marginBottom="1dp"
-        android:background="#9BB027"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="104dp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -60,16 +55,16 @@
             android:id="@+id/button12"
             android:layout_width="match_parent"
             android:layout_height="82dp"
-            android:background="#FF4454"
             android:onClick="frame1"
+            android:background="@android:color/transparent"
             android:text="登录" />
 
         <Button
             android:id="@+id/button13"
             android:layout_width="match_parent"
             android:layout_height="79dp"
-            android:background="@android:drawable/ic_notification_overlay"
             android:onClick="frame1"
+            android:background="@android:color/transparent"
             android:text="游客进入" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

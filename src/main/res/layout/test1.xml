@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hh"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,6 +30,33 @@
                 android:text="1.食欲不振" />
 
             <RadioGroup
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="是" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="否" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2.恶心、胃口难受、肚子疼。" />
+
+            <RadioGroup
+                android:id="@+id/r2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -45,13 +75,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2.恶心、胃口难受、肚子疼。" />
+                android:text="3.容易拉肚子或便秘" />
 
             <RadioGroup
+                android:id="@+id/r3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -70,13 +101,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3.容易拉肚子或便秘" />
+                android:text="4.关注心悸和脉搏" />
 
             <RadioGroup
+                android:id="@+id/r4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -95,13 +127,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="4.关注心悸和脉搏" />
-
+                android:text="5.身体健康状况良好。" />
             <RadioGroup
+                android:id="@+id/r5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -120,12 +152,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="5.身体健康状况良好。" />
+                android:text="6.牢骚和不满多。" />
             <RadioGroup
+                android:id="@+id/r6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -144,12 +177,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="6.牢骚和不满多。" />
+                android:text="7.父母期望高、" />
             <RadioGroup
+                android:id="@+id/r7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -168,12 +202,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="7.父母期望高、" />
+                android:text="8.自己的过去和家庭是不幸的。" />
+
             <RadioGroup
+                android:id="@+id/r8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -190,15 +226,14 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
-
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="8.自己的过去和家庭是不幸的。" />
-
+                android:text="9.过于担心将来的事情。" />
             <RadioGroup
+                android:id="@+id/r9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -215,13 +250,15 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
+
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="9.过于担心将来的事情。" />
+                android:text="10.不想见人。" />
             <RadioGroup
+                android:id="@+id/r10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -240,12 +277,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="10.不想见人。" />
+                android:text="11.觉得自己不是自己。" />
             <RadioGroup
+                android:id="@+id/r11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -264,12 +302,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="11.觉得自己不是自己。" />
+                android:text="12.缺乏热情和积极性。" />
             <RadioGroup
+                android:id="@+id/r12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -288,12 +327,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="12.缺乏热情和积极性。" />
+                android:text="13.悲观。" />
             <RadioGroup
+                android:id="@+id/r13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -312,12 +352,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="13.悲观。" />
+                android:text="14.思想不集中。" />
             <RadioGroup
+                android:id="@+id/r14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -336,12 +377,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="14.思想不集中。" />
+                android:text="15.情绪起伏过大。" />
             <RadioGroup
+                android:id="@+id/r15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -360,12 +402,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="15.情绪起伏过大。" />
+                android:text="16.常常失眠。" />
             <RadioGroup
+                android:id="@+id/r16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -384,12 +427,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="16.常常失眠。" />
+                android:text="17.头疼。" />
             <RadioGroup
+                android:id="@+id/r17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -408,12 +452,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="17.头疼。" />
+                android:text="18..脖子、肩膀酸疼。" />
             <RadioGroup
+                android:id="@+id/r18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -432,12 +477,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="18..脖子、肩膀酸疼。" />
+                android:text="19.胸疼憋闷" />
             <RadioGroup
+                android:id="@+id/r19"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -456,12 +502,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView25"
+                android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="19.胸疼憋闷" />
+                android:text="20.总是朝气蓬勃。" />
             <RadioGroup
+                android:id="@+id/r20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -480,12 +527,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView26"
+                android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="20.总是朝气蓬勃。" />
+                android:text="21气量小。" />
             <RadioGroup
+                android:id="@+id/r21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -504,12 +552,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView27"
+                android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="21气量小。" />
+                android:text="22.爱操心。" />
             <RadioGroup
+                android:id="@+id/r22"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -528,12 +577,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView28"
+                android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="22.爱操心。" />
+                android:text="23.焦躁不安。" />
             <RadioGroup
+                android:id="@+id/r23"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -552,12 +602,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView29"
+                android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="23.焦躁不安。" />
+                android:text="24.容易动怒。" />
             <RadioGroup
+                android:id="@+id/r24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -576,12 +627,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView30"
+                android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="24.容易动怒。" />
+                android:text="25.想轻生。" />
             <RadioGroup
+                android:id="@+id/r25"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -600,12 +652,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView31"
+                android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="25.想轻生。" />
+                android:text="26.对任何事都没兴趣。" />
             <RadioGroup
+                android:id="@+id/r26"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -624,12 +677,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/textView33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="26.对任何事都没兴趣。" />
+                android:text="27.记忆力减退。" />
             <RadioGroup
+                android:id="@+id/r27"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -648,12 +702,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView33"
+                android:id="@+id/textView34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="27.记忆力减退。" />
+                android:text="28.缺乏耐性。" />
             <RadioGroup
+                android:id="@+id/r28"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -672,12 +727,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/textView35"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="28.缺乏耐性。" />
+                android:text="29.缺乏决断能力。" />
             <RadioGroup
+                android:id="@+id/r29"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -696,12 +752,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/textView36"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="29.缺乏决断能力。" />
+                android:text="30.过于依赖别人。" />
             <RadioGroup
+                android:id="@+id/r30"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -720,12 +777,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/textView37"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="30.过于依赖别人。" />
+                android:text="31.为脸红而苦恼。" />
             <RadioGroup
+                android:id="@+id/r31"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -744,12 +802,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView37"
+                android:id="@+id/textView38"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="31.为脸红而苦恼。" />
+                android:text="32.口吃、声音发颤。" />
             <RadioGroup
+                android:id="@+id/r32"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -768,12 +827,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView38"
+                android:id="@+id/textView39"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="32.口吃、声音发颤。" />
+                android:text="33.身体忽冷忽热。" />
             <RadioGroup
+                android:id="@+id/r33"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -792,12 +852,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView39"
+                android:id="@+id/textView40"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="33.身体忽冷忽热。" />
+                android:text="34.常常注意排尿和性器官。" />
+
             <RadioGroup
+                android:id="@+id/r34"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -814,15 +876,14 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
-
             <TextView
-                android:id="@+id/textView40"
+                android:id="@+id/textView41"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="34.常常注意排尿和性器官。" />
-
+                android:text="35.心情开朗。" />
             <RadioGroup
+                android:id="@+id/r35"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -839,13 +900,15 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
+
             <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/textView42"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="35.心情开朗。" />
+                android:text="36.莫名其妙地不安。" />
             <RadioGroup
+                android:id="@+id/r36"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -864,12 +927,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView42"
+                android:id="@+id/textView43"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="36.莫名其妙地不安。" />
+                android:text="37.一个人独处时感到不安。" />
+
             <RadioGroup
+                android:id="@+id/r37"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -886,15 +951,14 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
-
             <TextView
-                android:id="@+id/textView43"
+                android:id="@+id/textView44"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView.一个人独处时感到不安。" />
-
+                android:text="38.缺乏自信心。" />
             <RadioGroup
+                android:id="@+id/r38"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -911,13 +975,15 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
+
             <TextView
-                android:id="@+id/textView44"
+                android:id="@+id/textView45"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="38.缺乏自信心。" />
+                android:text="39.办事畏首畏尾。" />
             <RadioGroup
+                android:id="@+id/r39"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -936,12 +1002,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView45"
+                android:id="@+id/textView46"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="39.办事畏首畏尾。" />
+                android:text="40.容易被人误解。" />
             <RadioGroup
+                android:id="@+id/r40"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -960,12 +1027,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView46"
+                android:id="@+id/textView47"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="40.容易被人误解。" />
+                android:text="41.不相信别人。" />
             <RadioGroup
+                android:id="@+id/r41"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -984,12 +1052,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView47"
+                android:id="@+id/textView48"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="41.不相信别人。" />
+                android:text="42.过于猜疑。" />
             <RadioGroup
+                android:id="@+id/r42"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1008,12 +1077,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView48"
+                android:id="@+id/textView49"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="42.过于猜疑。" />
+                android:text="43.厌恶交往。" />
             <RadioGroup
+                android:id="@+id/r43"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1032,12 +1102,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView49"
+                android:id="@+id/textView50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="43.厌恶交往。" />
+                android:text="44.感到自卑。" />
             <RadioGroup
+                android:id="@+id/r44"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1056,12 +1127,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView50"
+                android:id="@+id/textView51"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="44.感到自卑。" />
+                android:text="45.杞人忧天。" />
             <RadioGroup
+                android:id="@+id/r45"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1080,12 +1152,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView51"
+                android:id="@+id/textView52"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="45.杞人忧天。" />
+                android:text="46.身体倦乏。" />
             <RadioGroup
+                android:id="@+id/r46"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1104,12 +1177,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView52"
+                android:id="@+id/textView53"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="46.身体倦乏。" />
+                android:text="47.一着急就出冷汗。" />
             <RadioGroup
+                android:id="@+id/r47"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1128,12 +1202,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView53"
+                android:id="@+id/textView54"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="47.一着急就出冷汗。" />
+                android:text="48.站起来就头晕。" />
             <RadioGroup
+                android:id="@+id/r48"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1152,12 +1227,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView54"
+                android:id="@+id/textView55"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="48.站起来就头晕。" />
+                android:text="49.有过昏迷或抽疯。" />
             <RadioGroup
+                android:id="@+id/r49"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1176,12 +1252,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView55"
+                android:id="@+id/textView56"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="49.有过昏迷或抽疯。" />
+                android:text="50.人缘好受欢迎。" />
             <RadioGroup
+                android:id="@+id/r50"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1200,12 +1277,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView56"
+                android:id="@+id/textView57"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="50.人缘好受欢迎。" />
+                android:text="51.过于拘泥。" />
             <RadioGroup
+                android:id="@+id/r51"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1224,12 +1302,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView57"
+                android:id="@+id/textView58"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="51.过于拘泥。" />
+                android:text="52.对任何事情不反复确认就不放心。" />
             <RadioGroup
+                android:id="@+id/r52"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1248,12 +1327,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView58"
+                android:id="@+id/textView59"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="52.对任何事情不反复确认就不放心。" />
+                android:text="53.对脏很在乎。" />
             <RadioGroup
+                android:id="@+id/r53"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1272,12 +1352,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView59"
+                android:id="@+id/textView60"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="53.对脏很在乎。" />
+                android:text="54.摆脱不了毫无意义的想法。" />
             <RadioGroup
+                android:id="@+id/r54"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1296,12 +1377,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/textView61"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="54.摆脱不了毫无意义的想法。" />
+                android:text="55.觉得自己有怪气味。" />
             <RadioGroup
+                android:id="@+id/r55"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1320,12 +1402,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView61"
+                android:id="@+id/textView62"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="55.觉得自己有怪气味。" />
+                android:text="56.别人在自己背后说坏话。" />
             <RadioGroup
+                android:id="@+id/r56"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1344,12 +1427,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView62"
+                android:id="@+id/textView63"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="56.别人在自己背后说坏话。" />
+                android:text="57.总注意周围的人。" />
             <RadioGroup
+                android:id="@+id/r57"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1368,12 +1452,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView63"
+                android:id="@+id/textView64"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="57.总注意周围的人。" />
+                android:text="58.在乎别人的视线。" />
             <RadioGroup
+                android:id="@+id/r58"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1392,12 +1477,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView64"
+                android:id="@+id/textView65"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="58.在乎别人的视线。" />
+                android:text="59.觉得别人轻视自己。" />
             <RadioGroup
+                android:id="@+id/r59"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1416,12 +1502,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView65"
+                android:id="@+id/textView66"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="59.觉得别人轻视自己。" />
+                android:text="60.情绪易被破坏。" />
             <RadioGroup
+                android:id="@+id/r60"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1440,12 +1527,14 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView66"
+                android:id="@+id/textView67"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="60.情绪易被破坏。" />
+                android:text="61.至今，你感到自身健康方面有问题吗？" />
+
             <RadioGroup
+                android:id="@+id/r61"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1462,15 +1551,15 @@
                     android:layout_height="wrap_content"
                     android:text="否" />
             </RadioGroup>
-
             <TextView
-                android:id="@+id/textView67"
+                android:id="@+id/textView68"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="61.至今，你感到自身健康方面有问题吗？" />
+                android:text="62.至今，你曾觉得心理卫生方面有问题吗？" />
 
             <RadioGroup
+                android:id="@+id/r62"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1488,13 +1577,14 @@
                     android:text="否" />
             </RadioGroup>
             <TextView
-                android:id="@+id/textView68"
+                android:id="@+id/textView69"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="62.至今，你曾觉得心理卫生方面有问题吗？" />
+                android:text="63.至今，你曾接受过心理咨询与治疗吗？" />
 
             <RadioGroup
+                android:id="@+id/r63"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1512,13 +1602,13 @@
                     android:text="否" />
             </RadioGroup>
             <TextView
-                android:id="@+id/textView69"
+                android:id="@+id/textView70"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="63.至今，你曾接受过心理咨询与治疗吗？" />
-
+                android:text="64.你有健康或心理方面想咨询的问题吗？" />
             <RadioGroup
+                android:id="@+id/r64"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" >
@@ -1531,29 +1621,6 @@
 
                 <RadioButton
                     android:id="@+id/radioButton128"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="否" />
-            </RadioGroup>
-            <TextView
-                android:id="@+id/textView70"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="64.你有健康或心理方面想咨询的问题吗？" />
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1" >
-
-                <RadioButton
-                    android:id="@+id/radioButton129"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="是" />
-
-                <RadioButton
-                    android:id="@+id/radioButton130"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="否" />

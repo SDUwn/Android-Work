@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="建议咨询专业的心理医生！"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="这个世界虽然不完美，但我们仍然可以疗愈自己。"
+        android:textColor="#009688"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="请拨打24小时免费心理咨询热线或就医。"
+        android:textColor="#352F36" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="北京热线：010-82951332" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="上海热线：021-12320-5" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="甘肃热线：0931-4638858" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="福建热线：0592-5395159" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="广东热线：020-81899120" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="浙江热线：0571-85029595" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="江苏热线：0512-65791001" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="吉林热线：0431-89685000" /><![CDATA[
+
+    android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+]]>
+</LinearLayout>
